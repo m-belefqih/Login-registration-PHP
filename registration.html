@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALLO VOYAGE</title>
+    <!-- Tailwind CSS v4.1 -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex h-screen w-full font-[Poppins]">
+ 
+    <!-- Left side - Image -->
+    <div class="hidden lg:block lg:w-2/5">
+        <img
+            src="images/img-login.jpg" 
+            alt="image of login and registration" 
+            class="h-full w-full object-cover"
+        >
+    </div>
+
+    <!-- Right side - Login Form -->
+    <div class="w-full lg:w-3/5 flex items-center justify-center">
+
+        <div class="max-w-md w-full flex flex-col items-center justify-center space-y-10 p-8">
+
+            <h2 class="text-4xl font-bold border-b-4 border-(--lightblue) pb-1">Inscription</h2>
+
+            <form class="w-full" action="#" method="POST">
+
+                <label for="email" class="font-medium block mb-2 text-sm text-gray-900">E-mail</label>
+                
+                <div class="relative">
+                    
+                    <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
+                        <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+                            <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+                            <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+                        </svg>
+                    </div>
+                    
+                    <input
+                        type="email"
+                        id="email"
+                        aria-describedby="helper-text-explanation"
+                        name="email"
+                        class="block w-full p-2.5 ps-10 mb-6 bg-gray-100 border border-orange-400 
+                        rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
+                        placeholder="name@jhon.com"
+                        required
+                    />
+                </div>
+
+                <div class="flex items-center justify-between mb-2">
+                    <label for="password" class="block text-sm font-medium text-gray-900">Mot de passe</label>
+                    <div class="text-sm">
+                        <a href="#" class="font-semibold text-(--orange) hover:text-(--orange)/80">Mot de passe oublié ?</a>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    
+                    
+                    <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
+                        <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M5 8V6a5 5 0 0110 0v2h1a1 1 0 011 1v9a1 1 0 01-1 1H4a1 1 0 01-1-1V9a1 1 0 011-1h1zm2-2a3 3 0 116 0v2H7V6zm3 4a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+
+                    <input
+                        type="password"
+                        id="password"
+                        aria-describedby="helper-text-explanation"
+                        name="password"
+                        class="block w-full p-2.5 ps-10 mb-8 bg-gray-100 border border-orange-400 
+                        rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
+                        placeholder="votre mot de passe"
+                        required
+                    />
+                    
+                </div>
+
+                <div>
+                    <button type="submit" class="flex w-full justify-center rounded-lg bg-(--orange) p-2 
+                    font-semibold text-white shadow-xs hover:bg-(--orange)/90">Se connecter</button>
+                </div>
+            
+            </form>
+
+            <p class="text-gray-700 font-medium">Vous avez déjà un compte ? 
+                <a href="login.html" class="underline font-semibold text-blue-500 hover:text-blue-600">Se connecter</a>
+            </p> 
+                            
+        </div>
+    </div>
+ 
+</body>
+</html>
