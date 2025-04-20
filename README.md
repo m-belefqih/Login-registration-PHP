@@ -22,3 +22,24 @@ Build websites even faster with components on top of Tailwind CSS : [Flowbite](h
 - **Gestion de projet et collaboration** : Git, GitHub & Discord
 - **IDE** : VS Code & PhpStorm
 - **Autre outils** : [Sass](https://sass-lang.com/), [sweetalert2](https://sweetalert2.github.io/)
+
+# Installation and Setup
+
+To set up this project on your local machine:
+1. Clone the repository using HTTPS:
+
+```bash
+git clone <repository_url>
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd my-first-project-tailwind-css
+```
+
+3. (Optional) To pull the latest changes from the repository, use the `git pull` command:
+
+```bash
+git pull origin main
+```
