@@ -1,4 +1,4 @@
-# Specifications
+# Some specifications of this project
 
 ## Useful links
 
