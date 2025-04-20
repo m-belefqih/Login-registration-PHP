@@ -1,4 +1,4 @@
-# Some specifications of this project
+# ALLO VOYAGE
 
 ## Useful links
 
@@ -16,12 +16,12 @@ Build websites even faster with components on top of Tailwind CSS : [Flowbite](h
 
 - **Design** : UML, StartUML
 - **Prototyping** : [Framer](https://www.framer.com/)
-- **Fontend** : HTML, CSS, [Tailwind CSS](https://tailwindcss.com/), React
-- **Backend** : PHP ([Laravel](https://laravel.com/))
+- **Fontend** : HTML5, CSS3, [Tailwind CSS](https://tailwindcss.com/), React
+- **Backend** : PHP ([Laravel 10](https://laravel.com/))
 - **Database** : MySQL
 - **Project management and collaboration** : Git, GitHub & Discord
-- **IDE** : VS Code & PhpStorm
-- **Other tools** : [Sass](https://sass-lang.com/), [sweetalert2](https://sweetalert2.github.io/)
+- **Other tools** : VS Code, PhpStorm, Material Tailwind  [Sass](https://sass-lang.com/), [sweetalert2](https://sweetalert2.github.io/), Chart.js, Postman
+- **Development methodology** : CASCADE
 
 # Installation and Setup
 
