@@ -31,7 +31,7 @@ To set up this project on your local machine:
 1. Clone the repository using HTTPS:
 
 ```bash
-git clone [<repository_url>](https://github.com/m-belefqih/travel-agency-app.git)
+git clone https://github.com/m-belefqih/travel-agency-app.git
 ```
 
 2. Navigate to the project directory:
