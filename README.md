@@ -8,6 +8,8 @@ Docs of Tailwind CSS v4.1 : [Tailwind CSS](https://tailwindcss.com/docs/installa
 
 Build websites even faster with components on top of Tailwind CSS : [Flowbite](https://flowbite.com/).
 
+Course of Tailwind CSS b Darija : [Flowbite](https://www.youtube.com/watch?v=IZ5CehCYqcc&list=PLzw5gTKvdr_mbqo5i7OTxu8RK0yGdoECT).
+
 - [Forms](https://flowbite.com/docs/components/forms/)
 - [Navbar](https://flowbite.com/docs/components/navbar/)
 - [Tables](https://flowbite.com/docs/components/tables/)
