@@ -23,7 +23,7 @@
     <!-- Right side - Registration Form -->
     <div class="w-full lg:w-3/5 flex items-center justify-center">
 
-        <div class="max-w-3xl w-full flex flex-col items-center justify-center space-y-10 p-8 border">
+        <div class="max-w-3xl w-full flex flex-col items-center justify-center space-y-10 p-8">
 
             <h2 class="text-4xl font-bold border-b-4 border-(--lightblue) pb-1">Inscription</h2>
 
@@ -33,7 +33,7 @@
                     <!-- Left side of form -->
                     <div>
                         <!-- Last name (Nom) -->
-                        <label for="email" class="font-medium block mb-2 text-sm text-gray-900">E-mail</label>
+                        <label for="nom" class="font-medium block mb-2 text-sm text-gray-900">Nom <span class="text-red-600">*</span></label>
                         
                         <div class="relative">
                             
@@ -45,18 +45,18 @@
                             </div>
                             
                             <input
-                                type="email"
-                                id="email"
-                                name="email"
+                                type="text"
+                                id="nom"
+                                name="nom"
                                 class="block w-full p-2.5 ps-10 mb-6 bg-gray-100 border border-orange-400 
                                 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
-                                placeholder="name@jhon.com"
+                                placeholder="Jhon"
                                 required
                             />
                         </div>
 
                         <!-- First name (Prénom) -->
-                        <label for="email" class="font-medium block mb-2 text-sm text-gray-900">E-mail</label>
+                        <label for="prenom" class="font-medium block mb-2 text-sm text-gray-900">Prénom <span class="text-red-600">*</span></label>
                         
                         <div class="relative">
                             
@@ -68,18 +68,18 @@
                             </div>
                             
                             <input
-                                type="email"
-                                id="email"
-                                name="email"
+                                type="text"
+                                id="prenom"
+                                name="prenom"
                                 class="block w-full p-2.5 ps-10 mb-6 bg-gray-100 border border-orange-400 
                                 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
-                                placeholder="name@jhon.com"
+                                placeholder="Doe"
                                 required
                             />
                         </div>
 
                         <!-- Birth date (Date de naissance) -->
-                        <label for="email" class="font-medium block mb-2 text-sm text-gray-900">E-mail</label>
+                        <label for="birthdate" class="font-medium block mb-2 text-sm text-gray-900">Date de naissance <span class="text-red-600">*</span></label>
                         
                         <div class="relative">
                             
@@ -91,67 +91,55 @@
                             </div>
                             
                             <input
-                                type="email"
-                                id="email"
-                                name="email"
+                                type="date"
+                                id="birthdate"
+                                name="birthdate"
                                 class="block w-full p-2.5 ps-10 mb-6 bg-gray-100 border border-orange-400 
                                 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
-                                placeholder="name@jhon.com"
                                 required
                             />
                         </div>
 
                         <!-- Sexe -->
-                        <label for="sexe" class="font-medium block mb-2 text-sm text-gray-900">Sexe</label>
+                        <label for="sexe" class="font-medium block mb-2 text-sm text-gray-900">Sexe <span class="text-red-600">*</span></label>
                         
-                        <div class="relative">
-                            
-                            <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-                                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
-                                    <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
-                                    <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
-                                </svg>
-                            </div>
-                            
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                class="block w-full p-2.5 ps-10 mb-6 bg-gray-100 border border-orange-400 
-                                rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
-                                placeholder="name@jhon.com"
-                                required
-                            />
+                        <div class="flex items-center mb-4">
+                            <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <label for="default-radio-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Default radio</label>
                         </div>
+                        <div class="flex items-center">
+                            <input checked id="default-radio-2" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <label for="default-radio-2" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Checked state</label>
+                        </div>
+
                     </div>
 
                     <!-- Right side of form -->
                     <div>
                         <!-- Phone number (Numéro de téléphone) -->
-                        <label for="telephone" class="font-medium block mb-2 text-sm text-gray-900">E-mail</label>
+                        <label for="telephone" class="font-medium block mb-2 text-sm text-gray-900">Téléphone <span class="text-red-600">*</span></label>
                         
                         <div class="relative">
                             
                             <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-                                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
-                                    <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
-                                    <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+                                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 19 18">
+                                    <path d="M18 13.446a3.02 3.02 0 0 0-.946-1.985l-1.4-1.4a3.054 3.054 0 0 0-4.218 0l-.7.7a.983.983 0 0 1-1.39 0l-2.1-2.1a.983.983 0 0 1 0-1.389l.7-.7a2.98 2.98 0 0 0 0-4.217l-1.4-1.4a2.824 2.824 0 0 0-4.218 0c-3.619 3.619-3 8.229 1.752 12.979C6.785 16.639 9.45 18 11.912 18a7.175 7.175 0 0 0 5.139-2.325A2.9 2.9 0 0 0 18 13.446Z"/>
                                 </svg>
                             </div>
                             
                             <input
-                                type="tel"
+                                type="text"
                                 id="telephone"
-                                name="email"
+                                name="telephone"
                                 class="block w-full p-2.5 ps-10 mb-6 bg-gray-100 border border-orange-400 
                                 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
-                                placeholder="name@jhon.com"
+                                placeholder="123-456-7890"
                                 required
                             />
                         </div>
 
-                        <!-- Sexe -->
-                        <label for="sexe" class="font-medium block mb-2 text-sm text-gray-900">Sexe</label>
+                        <!-- Email (Adresse e-mail) -->
+                        <label for="email" class="font-medium block mb-2 text-sm text-gray-900">E-mail <span class="text-red-600">*</span></label>
                         
                         <div class="relative">
                             
@@ -171,50 +159,49 @@
                                 placeholder="name@jhon.com"
                                 required
                             />
+                            
                         </div>
 
-                        <!-- Sexe -->
-                        <label for="sexe" class="font-medium block mb-2 text-sm text-gray-900">Sexe</label>
+                        <!-- Mot de passe -->
+                        <label for="password" class="font-medium block mb-2 text-sm text-gray-900">Mot de passe <span class="text-red-600">*</span></label>
                         
                         <div class="relative">
                             
                             <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-                                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
-                                    <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
-                                    <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+                                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M5 8V6a5 5 0 0110 0v2h1a1 1 0 011 1v9a1 1 0 01-1 1H4a1 1 0 01-1-1V9a1 1 0 011-1h1zm2-2a3 3 0 116 0v2H7V6zm3 4a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1z" clip-rule="evenodd"/>
                                 </svg>
                             </div>
                             
                             <input
-                                type="email"
-                                id="email"
-                                name="email"
+                                type="password"
+                                id="password"
+                                name="password"
                                 class="block w-full p-2.5 ps-10 mb-6 bg-gray-100 border border-orange-400 
                                 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
-                                placeholder="name@jhon.com"
+                                placeholder="8 caractères minimum"
                                 required
                             />
                         </div>
 
-                        <!-- Sexe -->
-                        <label for="sexe" class="font-medium block mb-2 text-sm text-gray-900">Sexe</label>
+                        <!-- Confirmation de mot de passe -->
+                        <label for="confirmpassword" class="font-medium block mb-2 text-sm text-gray-900">Confirmation de mot de passe <span class="text-red-600">*</span></label>
                         
                         <div class="relative">
                             
                             <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-                                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
-                                    <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
-                                    <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+                                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M5 8V6a5 5 0 0110 0v2h1a1 1 0 011 1v9a1 1 0 01-1 1H4a1 1 0 01-1-1V9a1 1 0 011-1h1zm2-2a3 3 0 116 0v2H7V6zm3 4a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1z" clip-rule="evenodd"/>
                                 </svg>
                             </div>
                             
                             <input
-                                type="email"
-                                id="email"
-                                name="email"
+                                type="password"
+                                id="confirmpassword"
+                                name="confirmpassword"
                                 class="block w-full p-2.5 ps-10 mb-6 bg-gray-100 border border-orange-400 
                                 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
-                                placeholder="name@jhon.com"
+                                placeholder="8 caractères minimum"
                                 required
                             />
                         </div>
