@@ -20,7 +20,7 @@
         >
     </div>
 
-    <!-- Right side - Login Form -->
+    <!-- Right side - Registration Form -->
     <div class="w-full lg:w-3/5 flex items-center justify-center">
 
         <div class="max-w-md w-full flex flex-col items-center justify-center space-y-10 p-8">
@@ -43,7 +43,6 @@
                     <input
                         type="email"
                         id="email"
-                        aria-describedby="helper-text-explanation"
                         name="email"
                         class="block w-full p-2.5 ps-10 mb-6 bg-gray-100 border border-orange-400 
                         rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
@@ -52,11 +51,9 @@
                     />
                 </div>
 
-                <div class="flex items-center justify-between mb-2">
+                <div class="flex items-center justify-between mb-2">   
                     <label for="password" class="block text-sm font-medium text-gray-900">Mot de passe</label>
-                    <div class="text-sm">
-                        <a href="#" class="font-semibold text-(--orange) hover:text-(--orange)/80">Mot de passe oublié ?</a>
-                    </div>
+                    <a href="forgot-password.html" class="font-semibold text-sm text-(--orange) hover:text-(--orange)/80">Mot de passe oublié ?</a>
                 </div>
                 
                 <div class="relative">
@@ -71,7 +68,6 @@
                     <input
                         type="password"
                         id="password"
-                        aria-describedby="helper-text-explanation"
                         name="password"
                         class="block w-full p-2.5 ps-10 mb-8 bg-gray-100 border border-orange-400 
                         rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
@@ -81,11 +77,9 @@
                     
                 </div>
 
-                <div>
-                    <button type="submit" class="flex w-full justify-center rounded-lg bg-(--orange) p-2 
-                    font-semibold text-white shadow-xs hover:bg-(--orange)/90">Se connecter</button>
-                </div>
-            
+                <button type="submit" class="flex w-full justify-center rounded-lg bg-(--orange) p-2 
+                font-semibold text-white shadow-xs hover:bg-(--orange)/90">Se connecter</button>
+      
             </form>
 
             <p class="text-gray-700 font-medium">Vous avez déjà un compte ? 
