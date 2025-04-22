@@ -73,4 +73,8 @@ git pull origin main
 - otp verification
 - mot de passe oublié
 
-
+## push your local repository to github from command line
+```git
+git remote add origin https://github.com/m-belefqih/my-portfolio.git
+git push -u origin main
+```
