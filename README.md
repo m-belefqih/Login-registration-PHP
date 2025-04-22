@@ -75,6 +75,6 @@ git pull origin main
 
 ## push your local repository to github from command line
 ```git
-git remote add origin https://github.com/m-belefqih/my-portfolio.git
+git remote add origin https://github.com/m-belefqih/ALLO-VOYAGE.git
 git push -u origin main
 ```
