@@ -47,3 +47,17 @@ cd travel-agency-app
 ```bash
 git pull origin main
 ```
+
+## Les pages de ce projet
+
+1. login
+2. registration (l'inscription)
+3. OTP Verification (par email)
+4. rechercher un voyage (pour voir les voyages disponibles et sélectionner le voyage souhaité)
+5. réserver voyage (inclus le paiement)
+6. CRUD de voyages
+7. CRUD de réservation
+8. CRUD de clients
+9. Modifier le profile (clients ou admin)
+10. Dashboard de l'admin
+11. 
