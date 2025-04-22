@@ -10,7 +10,7 @@ Build websites even faster with components on top of Tailwind CSS : [Flowbite](h
 
 Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS :  [heroicons](https://heroicons.com/)
 
-Course of Tailwind CSS b Darija : [Flowbite](https://www.youtube.com/watch?v=IZ5CehCYqcc&list=PLzw5gTKvdr_mbqo5i7OTxu8RK0yGdoECT).
+Course of Tailwind CSS b Darija : [YouTube](https://www.youtube.com/watch?v=IZ5CehCYqcc&list=PLzw5gTKvdr_mbqo5i7OTxu8RK0yGdoECT).
 
 - [Forms](https://flowbite.com/docs/components/forms/)
 - [Navbar](https://flowbite.com/docs/components/navbar/)
