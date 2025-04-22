@@ -52,6 +52,12 @@ cd travel-agency-app
 git pull origin main
 ```
 
+# Push your local repository to github from command line
+```git
+git remote add origin https://github.com/m-belefqih/ALLO-VOYAGE.git
+git push -u origin main
+```
+
 ## Les pages de ce projet
 
 1. login
@@ -72,9 +78,3 @@ git pull origin main
 - registration
 - otp verification
 - mot de passe oublié
-
-## push your local repository to github from command line
-```git
-git remote add origin https://github.com/m-belefqih/ALLO-VOYAGE.git
-git push -u origin main
-```
