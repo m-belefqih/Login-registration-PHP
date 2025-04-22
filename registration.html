@@ -89,15 +89,23 @@
                         />
 
                         <!-- Sexe -->
-                        <label for="sexe" class="font-medium block mb-2 text-sm text-gray-900">Sexe <span class="text-red-600">*</span></label>
+                        <label for="prenom" class="font-medium block mb-2 text-sm text-gray-900">Sexe <span class="text-red-600">*</span></label>
                         
-                        <div class="flex items-center mb-4">
-                            <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
-                            <label for="default-radio-1" class="ms-2 text-sm font-medium text-gray-900">Default radio</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input checked id="default-radio-2" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2">
-                            <label for="default-radio-2" class="ms-2 text-sm font-medium text-gray-900">Checked state</label>
+                        <div class="mb-6 grid grid-cols-1">   
+                            <select 
+                                id="country" 
+                                name="country" 
+                                class="block w-full col-start-1 row-start-1 appearance-none 
+                                p-2.5 text-sm text-gray-900 bg-gray-100 border border-orange-400 rounded-lg 
+                                focus:outline-none focus:ring-2 focus:ring-orange-500">
+                                <option value="" selected>Sélectionner votre sexe</option>
+                                <option value="Homme">Homme</option>
+                                <option value="Femme">Femme</option>
+                            </select>
+                            <svg class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" data-slot="icon">
+                                <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                            </svg>
+                           
                         </div>
 
                     </div>
